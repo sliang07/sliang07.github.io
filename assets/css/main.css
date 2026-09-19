@@ -326,6 +326,36 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 }
 .stat-label { color: var(--muted); font-size: 13.5px; }
 
+/* Product spotlight */
+
+.spotlight {
+	display: grid;
+	grid-template-columns: 1.25fr 1fr;
+	gap: 28px;
+	align-items: center;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	padding: 20px;
+	margin-bottom: 36px;
+}
+
+.spotlight-media img {
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid var(--border);
+}
+
+.spotlight-body h3 { margin: 0 0 0.55em; font-size: 1.08rem; }
+.spotlight-body p { margin: 0 0 1.3em; color: var(--muted); font-size: 0.95rem; }
+
+.tl-link {
+	display: inline-block;
+	font-weight: 600;
+	font-size: 0.9rem;
+	margin: 0 0 0.9em;
+}
+
 /* Timeline / Experience */
 
 .timeline { position: relative; padding-left: 30px; }
@@ -566,6 +596,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 	.about-grid { grid-template-columns: 1fr; }
 	.project-grid { grid-template-columns: 1fr 1fr; }
 	.edu-grid { grid-template-columns: 1fr 1fr; }
+	.spotlight { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 720px) {

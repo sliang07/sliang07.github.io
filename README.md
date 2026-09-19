@@ -10,7 +10,7 @@
 ## Sections
 - **Hero** — headline, availability badge, CTAs, social icons
 - **About** — summary + highlight stats
-- **Experience** — MyAtOnce, Coding Dojo, JCPenney, BananaGo (timeline)
+- **Experience** — MyAtOnce (with a product spotlight linking to the public marketing site), Coding Dojo, JCPenney, BananaGo (timeline)
 - **Projects** — MCP Photoshop Server (open source, featured) + PokeMart, Price Compare, Doctor's App
 - **Skills** — grouped pills
 - **Education / Contact** — background + big email CTA (phone available upon request)
