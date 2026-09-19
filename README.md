@@ -19,5 +19,7 @@
 - Content: `index.html`
 - Design tokens (colors, fonts, spacing): top of `assets/css/main.css`
 - Interactions (mobile nav, scroll-spy, reveal-on-scroll): `assets/js/main.js`
+- Public résumé download: `assets/Stanley_Liang_Resume_Senior_Full-Stack.pdf`. This copy deliberately omits a phone number. Keep any application-specific copy with a phone number outside this repository.
+- Earlier projects are labeled as 2015 training work and link to their source repositories.
 
 Commit and push to `main`; GitHub Pages (Settings → Pages → Deploy from a branch, `main`, `/` root) picks up changes automatically.

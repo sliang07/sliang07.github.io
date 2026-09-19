@@ -41,6 +41,7 @@ img { max-width: 100%; display: block; }
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-dim); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 ::selection { background: rgba(45, 212, 191, 0.25); }
 
@@ -114,7 +115,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 .nav-links a:hover { color: var(--text); background: var(--surface-2); }
 .nav-links a.active { color: var(--accent); background: var(--accent-soft); }
 
-.nav-actions { display: flex; align-items: center; gap: 10px; }
+.nav-actions { display: flex; align-items: center; gap: 10px; margin-left: auto; }
 
 .icon-link {
 	display: inline-flex;
@@ -173,6 +174,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 .btn-primary:hover { background: var(--accent-dim); color: #04110f; }
 
 .btn-sm { padding: 0.45em 1em; font-size: 13px; }
+.file-type { margin-left: 0.35em; font-size: 0.75em; opacity: 0.75; }
 
 /* Hero */
 
@@ -301,6 +303,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 
 .about-bio { color: var(--muted); font-size: 1.02rem; margin: 0; }
 .about-bio + .about-bio { margin-top: 1em; }
+.about-copy { min-width: 0; }
 
 .about-side { display: grid; gap: 16px; }
 
@@ -481,6 +484,10 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 .project.featured .project-body { display: grid; align-content: center; }
 .project.featured .project-head-row h3 { font-size: 1.3rem; }
 .project.featured:hover .project-head-row h3 { color: var(--accent); }
+.project-link { display: inline-block; margin-top: 18px; font-weight: 600; font-size: 0.9rem; }
+.archive-title { margin: 40px 0 12px; font-size: 1.15rem; }
+.project-grid .project-body { height: 100%; display: flex; flex-direction: column; }
+.project-grid .project-link { margin-top: auto; padding-top: 18px; }
 
 .project-grid {
 	display: grid;
@@ -564,6 +571,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 	font-size: clamp(1.2rem, 3.4vw, 1.9rem);
 }
 .contact-meta { margin: 0; color: var(--muted); }
+.contact-card > .btn { margin-top: 20px; }
 
 /* Footer */
 
