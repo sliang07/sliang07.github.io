@@ -300,6 +300,7 @@ svg { width: 18px; height: 18px; fill: currentColor; display: block; }
 }
 
 .about-bio { color: var(--muted); font-size: 1.02rem; margin: 0; }
+.about-bio + .about-bio { margin-top: 1em; }
 
 .about-side { display: grid; gap: 16px; }
 
